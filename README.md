@@ -17,7 +17,7 @@ If you want to use the test set instead of the dev set you need to comment line 
 
 \freq_datasets - there are saved frequency datasets from the Leipzig Corpora Collection and a python file that preprocess the data \freq_datasets\freq_preprocess.py
 
-\pretrained_models - there are the word2vec models for english and spanish
+\pretrained_models - here you should download the word2vec models for english and spanish info in \pretrained_models\READ_ME.txt
 
 \utils - there are 6 python files from which only 5 are used when executing `python3 final.py` the other one (wordvecavg.py) was a test to use the average of word vectors to work with target words with more than one token.
 
