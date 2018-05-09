@@ -17,18 +17,18 @@ If you want to use the test set instead of the dev set you need to comment line 
 
 `\datasets` - there are saved the datasets as given for the project.
 
-`\freq_datasets` - there is a python file that preprocessed the datasets `\freq_datasets\freq_preprocess.py` and created the dictionaries `\freq_datasets\word-freq-eng.pkl` and `\freq_datasets\word-freq-spa.pkl` which are used in `final.py` The original datasets are not here because they where too large
+`\freq_datasets` - there is a python file that preprocessed the Leipzig Corpora Collection`\freq_datasets\freq_preprocess.py` and created the dictionaries `\freq_datasets\word-freq-eng.pkl` and `\freq_datasets\word-freq-spa.pkl` which are used in `final.py` The original datasets are not here because they where too large.
 
 `\pretrained_models` - here you should download the word2vec models for english and spanish info in `\pretrained_models\README.txt`
 
 `\utils` - there are 6 python files from which only 5 are used when executing `python3 final.py` the other one (`wordvecavg.py`) was a test to use the average of word vectors to work with target words with more than one token.
 
-`\utils\baseline.py` - python file with all the features (eventhough it's name is baseline here it's used in the improvement of the model
+`\utils\baseline.py` - python file with all the features (eventhough it's name is baseline here it's used in the improvement of the model.
 
 `\utils\dataset.py` - used to read from the datasets in `\datasets`
 
-`\utils\scorer.py` - used to score the predictions of the models
+`\utils\scorer.py` - used to score the predictions of the models.
 
 `\utils\syllable_spanish` - python file used in the syllabisation of spanish words taken from [GitHub](https://github.com/mabodo/sibilizador/blob/master/Silabizator.ipynb)
 
-`\utils\wordvec` - python file used as a baseline with word vectors
+`\utils\wordvec` - python file used as a baseline with word vectors.
