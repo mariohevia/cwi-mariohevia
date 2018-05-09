@@ -5,6 +5,8 @@ To download the files and the datasets, you should clone the repository from the
 
     https://github.com/mariohevia/cwi-mariohevia.git
 
+After this download the word2vec models into '\pretrained_models' as explained in '\pretrained_models\README.txt'
+
 ## Runing the code
 
 To run the code you should execute `python3 final.py` in the command line and it will print the results, it may take a while and use a lot of memory since it loads the word2vec model from GoogleNews-vectors (1.6 GB) or SBW-vectors (1.1 GB).
